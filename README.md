@@ -1,7 +1,7 @@
 # Auto Disboard Bumper
 
 ## What is disboard?
-Disboard is a service were you can post your discord server to grow it. Click the [link]("https://disboard.org/") to go to their website.
+Disboard is a service were you can post your discord server to grow it. Click the [link](https://disboard.org/) to go to their website.
 
 ## What's the purpose?
 The purpose of this Auto Bumper is to auto type the command `!d bump` every 2 hours (The cooldown time between bumping your server to the top page again). With this you will not have to type the command yourself, you can simply run this on heroku or a server and have a second discord account do it for you.
@@ -9,7 +9,7 @@ The purpose of this Auto Bumper is to auto type the command `!d bump` every 2 ho
 ## Setup:
 Setup is really easy, first install python3. Once installed simply run the command `pip install discord.py` this will install the discord libary for python. Allowing the bot to run correctly. 
 
-After everything is setup open the python file and edit the lines with you token. As you can see with the image below it says for you to edit and uncomment the correct one. If you do not know what an environment variable is simply uncomment line 8 and replace "TOKEN" with your discord token. [Link]("https://www.youtube.com/watch?v=tI1lzqzLQCs") - Click the link if you don't know what/how to get your discord token.
+After everything is setup open the python file and edit the lines with you token. As you can see with the image below it says for you to edit and uncomment the correct one. If you do not know what an environment variable is simply uncomment line 8 and replace "TOKEN" with your discord token. [Link](https://www.youtube.com/watch?v=tI1lzqzLQCs) - Click the link if you don't know what/how to get your discord token.
 ![gened coded](./images/pic.png) 
 
 ## Starting the bot:
