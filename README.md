@@ -1,5 +1,8 @@
 # Auto Disboard Bumper
 
+# User Token 
+To get a user token: F12 -> Network -> Tick the Hide data URLS -> Type into the filter /api -> Look for file named "science" -> Press on a "headers" tab -> Look for Title "Request headers" -> find the "authorisation" in it
+
 ## What is disboard?
 Disboard is a service were you can post your discord server to grow it. Click the [link](https://disboard.org/) to go to their website.
 
