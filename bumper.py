@@ -1,7 +1,12 @@
+# bot.py
 import os
-import discord
 
-TOKEN = "ODQ3Nzc5OTU5MzU1NDczOTIz.YLDCnQ.eh7bmOZKh2fYVEUnFq6omizHFHU"
+import discord
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv('BOT_TOKEN')
+
 client = discord.Client()
 
 @client.event
