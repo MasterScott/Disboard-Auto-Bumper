@@ -1,6 +1,5 @@
 # bot.py
 import os
-
 import discord
 
 TOKEN = os.getenv('BOT_TOKEN')
