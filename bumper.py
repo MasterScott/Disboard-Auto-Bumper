@@ -24,4 +24,4 @@ async def bla(ctx):
 
 
 
-bot.run(token, bot = False)
+bot.run(token)
