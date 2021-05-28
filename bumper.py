@@ -3,7 +3,7 @@ import discord
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('ODQ3Nzc5OTU5MzU1NDczOTIz.YLDCnQ.eh7bmOZKh2fYVEUnFq6omizHFHU')
+TOKEN = "ODQ3Nzc5OTU5MzU1NDczOTIz.YLDCnQ.eh7bmOZKh2fYVEUnFq6omizHFHU"
 client = discord.Client()
 
 @client.event
