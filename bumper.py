@@ -1,7 +1,6 @@
 import os
 import discord
 
-load_dotenv()
 TOKEN = "ODQ3Nzc5OTU5MzU1NDczOTIz.YLDCnQ.eh7bmOZKh2fYVEUnFq6omizHFHU"
 client = discord.Client()
 
