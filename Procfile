@@ -1,1 +1,1 @@
-worker: python bot/bumper.py
+worker: python bumper.py
