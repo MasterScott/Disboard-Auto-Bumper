@@ -6,7 +6,7 @@ from discord.ext import commands
 #token = os.getenv("TOKEN")
 # If you are using this on a server or your home pc uncomment the line below and put the discord token for the account you want it to auto bump on.
 # token = os.environ['BOT_TOKEN']
-token = "ODQ3NzYyMTY4NDg4MjYzNjkx.YLCydQ.v0m4LWTMMFA3b8_oXi7sS2IB94M"
+token = "ODQ3Nzc5OTU5MzU1NDczOTIz.YLDCnQ.eh7bmOZKh2fYVEUnFq6omizHFHU"
 bot = commands.Bot(command_prefix = "--", self_bot=True)
 
 @bot.event
