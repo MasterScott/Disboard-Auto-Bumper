@@ -1,13 +1,27 @@
-# bot.py
-import os
-import discord
+import discord, os, time
+from discord.ext import commands
 
-TOKEN = os.getenv('BOT_TOKEN')
 
-client = discord.Client()
+# Uncomment the line below if you are wanting to host this on heroku and are using an environment variable to store the token.
+token = os.getenv("BOT_TOKEN")
+# If you are using this on a server or your home pc uncomment the line below and put the discord token for the account you want it to auto bump on.
+#token = "TOKEN"
 
-@client.event
+bot = commands.Bot(command_prefix = "--", self_bot=True)
+
+@bot.event
 async def on_ready():
-    print(f'{client.user} has connected to Discord!')
+    print("Auto Bumper Is Online!")
 
-client.run(TOKEN, bot = False)
+
+
+
+@bot.command()
+async def bla(ctx):
+    while True:
+        await ctx.send("!d bump")
+        time.sleep(8125)
+
+
+
+bot.run(token, bot = False)
