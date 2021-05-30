@@ -13,7 +13,8 @@ The purpose of this Auto Bumper is to auto type the command `!d bump` every 2 ho
 Setup is really easy, first install python3. Once installed simply run the command `pip install discord.py` this will install the discord libary for python. Allowing the bot to run correctly. 
 
 After everything is setup open the python file and edit the lines with you token. As you can see with the image below it says for you to edit and uncomment the correct one. If you do not know what an environment variable is simply uncomment line 8 and replace "TOKEN" with your discord token. [Link](https://www.youtube.com/watch?v=tI1lzqzLQCs) - Click the link if you don't know what/how to get your discord token.
-![gened coded](./images/pic.png) 
+![pic](https://user-images.githubusercontent.com/21064622/120111142-70a50a80-c179-11eb-9380-6433c2e5f8cc.png)
+
 
 ## Starting the bot:
 Once you have completed all the above simply run the code. `python3 bumper.py` depending on how many servers you are in this can take some time for it to boot up. (If its a fresh account in one server its instant.) Once booted go into the channel you want the bot to post in and type `--bla` and you are done, you should see your account type `!d bump` if this worked correct (Some reasons for it not working correctly is you have two python versions installed and it installed discord.py for another version, to fix this use `pip3 install discord.py` instead of the command above) just keep the script running. Every 2 hours it will automatically type `!d bump` in that same channel again.
