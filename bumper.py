@@ -15,7 +15,7 @@ async def on_ready():
     
 @bot.event
 async def on_connect():
-    print("Auto Bumper Is disconnected!")
+    print("Auto Bumper Is successfully connected to Discord!")
 
 @bot.event
 async def on_disconnect():
