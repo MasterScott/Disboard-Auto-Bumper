@@ -19,7 +19,7 @@ async def on_connect():
 
 @bot.event
 async def on_disconnect():
-    print("Auto Bumper: Discord is down or the Bot can't connect to the internet")
+    print("Auto Bumper: Discord.com is down or the Bot can not connect to the internet")
 
 
 @bot.command()
