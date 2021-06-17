@@ -13,6 +13,7 @@ bot = commands.Bot(command_prefix = "--", self_bot=True)
 async def on_ready():
     print("Auto Bumper Is Online!")
     #print(await bot.fetch_user(token))
+    print(bot.owner_id)
     
 
 
