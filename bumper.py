@@ -21,7 +21,7 @@ async def bla(ctx):
     while True:
         await ctx.send("!d bump")
         await ctx.send(ctx.author)
-        time.sleep(8125)
+        time.sleep(8125) # 8125 seconds = 2 hours
 
 
 
