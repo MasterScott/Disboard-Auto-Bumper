@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix = "--", self_bot=True)
 @bot.event
 async def on_ready():
     print("Auto Bumper Is Online!") 
-    print("Auto Bumper name: " + str(bot.user)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
+    print("Auto Bumper Name: " + str(bot.user)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
 
 @bot.command()
 async def bla(ctx):
