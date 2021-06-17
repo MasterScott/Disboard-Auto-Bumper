@@ -1,6 +1,8 @@
 import discord, os, time
 from discord.ext import commands # https://discordpy.readthedocs.io/en/stable/ext/commands/commands.html
 
+# More improvements example: https://codeberg.org/SnowCode/auto-bump
+
 
 # Uncomment the line below if you are wanting to host this on heroku and are using an environment variable to store the token.
 token = os.getenv("USER_TOKEN")
