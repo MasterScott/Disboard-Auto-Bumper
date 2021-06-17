@@ -9,7 +9,7 @@ token = os.getenv("USER_TOKEN")
 # If you are using this on a server or your home pc uncomment the line below and put the discord token for the account you want it to auto bump on.
 #token = "TOKEN"
 
-bot = commands.Bot(command_prefix = "--", self_bot=True)
+bot = commands.Bot(command_prefix = "--", self_bot=True) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#bot
 
 @bot.event
 async def on_ready():
