@@ -16,8 +16,7 @@ async def on_ready():
     print("Auto Bumper Is Online!")
     #print(await bot.fetch_user(token))
     print(bot.owner_id)
-    print(bot.self_bot)
-
+    print(bot.user)
 
 @bot.command()
 async def bla(ctx):
