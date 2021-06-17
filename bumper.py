@@ -26,7 +26,7 @@ async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/ap
 
 
 
-botReceive.run(token, botReceive = False)
+botReceive.run(token, bot = False)
 
 
 
