@@ -1,5 +1,5 @@
 import discord, os, time
-from discord.ext import commands
+from discord.ext import commands # https://discordpy.readthedocs.io/en/stable/ext/commands/commands.html
 
 
 # Uncomment the line below if you are wanting to host this on heroku and are using an environment variable to store the token.
