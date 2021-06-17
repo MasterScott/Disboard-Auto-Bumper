@@ -12,6 +12,10 @@ bot = commands.Bot(command_prefix = "--", self_bot=True)
 @bot.event
 async def on_ready():
     print("Auto Bumper Is Online!")
+    
+@bot.event
+async def on_connect():
+    print("Auto Bumper Is disconnected!")
 
 @bot.event
 async def on_disconnect():
