@@ -22,7 +22,7 @@ async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/ap
         await ctx.send("!d bump")
         await ctx.send(ctx.author)
         print("Auto Bumper bla command has been done in #" + str(ctx.channel))
-        time.sleep(8125) # 8125 seconds == 2 hours
+        time.sleep(10) # 8125 seconds == 2 hours
 
 
 
