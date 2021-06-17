@@ -17,11 +17,11 @@ async def on_ready():
     print("Auto Bumper " + str(bot.user)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
 
 @bot.command()
-async def bla(ctx):
+async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html#discord.ext.commands.Context
     while True:
         await ctx.send("!d bump")
         await ctx.send(ctx.author)
-        print("bla command has been done")
+        print("bla command has been done in " + ctx.channel)
         time.sleep(8125) # 8125 seconds == 2 hours
 
 
