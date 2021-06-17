@@ -28,6 +28,7 @@ async def on_disconnect():
 async def bla(ctx):
     while True:
         await ctx.send("!d bump")
+        await ctx.send(await ctx.author)
         time.sleep(8125)
 
 
