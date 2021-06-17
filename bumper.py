@@ -43,12 +43,12 @@ botReceive.run(token, bot = False)
 
 
 
-@bot.event
+@botReceive.event
 async def on_connect():
     print("Auto Bumper successfully connected to Discord!")
 
 
     
-@bot.event
+@botReceive.event
 async def on_disconnect():
     print("Auto Bumper: Discord.com is down or the Bot can not connect to the internet")
