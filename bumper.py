@@ -14,15 +14,6 @@ async def on_ready():
     print("Auto Bumper Is Online!")
     #print(await bot.fetch_user(token))
     
-@bot.event
-async def on_connect():
-    print("Auto Bumper successfully connected to Discord!")
-
-
-    
-@bot.event
-async def on_disconnect():
-    print("Auto Bumper: Discord.com is down or the Bot can not connect to the internet")
 
 
 @bot.command()
@@ -35,3 +26,28 @@ async def bla(ctx):
 
 
 bot.run(token, bot = False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@bot.event
+async def on_connect():
+    print("Auto Bumper successfully connected to Discord!")
+
+
+    
+@bot.event
+async def on_disconnect():
+    print("Auto Bumper: Discord.com is down or the Bot can not connect to the internet")
