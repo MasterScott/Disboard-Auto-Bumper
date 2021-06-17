@@ -16,7 +16,6 @@ async def on_ready():
 @bot.event
 async def on_connect():
     print("Auto Bumper successfully connected to Discord!")
-    this.log('output this message to the user')
 
 
     
