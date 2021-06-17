@@ -15,8 +15,11 @@ async def on_ready():
     
 @bot.event
 async def on_connect():
-    print('\033[92m' + "Auto Bumper successfully connected to Discord!")
+    print("Auto Bumper successfully connected to Discord!")
+    this.log('output this message to the user')
 
+
+    
 @bot.event
 async def on_disconnect():
     print("Auto Bumper: Discord.com is down or the Bot can not connect to the internet")
