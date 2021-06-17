@@ -13,9 +13,8 @@ bot = commands.Bot(command_prefix = "--", self_bot=True)
 
 @bot.event
 async def on_ready():
-    print("Auto Bumper Is Online!")
+    print("Auto Bumper Is Online!" + " Username: " + bot.user)
     #print(await bot.fetch_user(token))
-    print(bot.user)
 
 @bot.command()
 async def bla(ctx):
