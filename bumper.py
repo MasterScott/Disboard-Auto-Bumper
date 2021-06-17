@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix = "--", self_bot=True)
 @bot.event
 async def on_ready():
     print("Auto Bumper Is Online!")
-    print(await bot.fetch_user(token))
+    #print(await bot.fetch_user(token))
     
 @bot.event
 async def on_connect():
