@@ -16,7 +16,7 @@ async def on_ready():
     print("Auto Bumper Is Online!") 
     print("Auto Bumper " + str(botReceive.user)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
    
-    print(discord.utils.get(botReceive.guild.text_channels, name="general"))
+    #print(discord.utils.get(guild.text_channels, name="general"))
     #print(botReceive.get_channel('855039765711552515'))
 
 @botReceive.command()
