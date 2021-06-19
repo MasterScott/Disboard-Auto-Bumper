@@ -17,8 +17,13 @@ async def on_ready():
     print("Auto Bumper " + str(botReceive.user) + " | " + str(botReceive.user.id)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
     print (str(await botReceive.fetch_channel("855039765711552515")))
     channnel = await botReceive.fetch_channel("855039765711552515");
-    await channnel.send("found channel")
+    while true:
+        await channnel.send("found channel")
+        time.sleep(10)
+        
     print (str(botReceive.get_channel("general")))
+        
+        
     #server = bot.get_server(member.server)
     #channel = discord.utils.get(server.text_channels, name='general')
     
