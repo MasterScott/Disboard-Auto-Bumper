@@ -13,12 +13,14 @@ botReceive = commands.Bot(command_prefix = "--", self_bot=True) # https://discor
 
 @botReceive.event
 async def on_ready():
+   
     print("Auto Bumper Is Online!") 
     print("Auto Bumper " + str(botReceive.user) + " | " + str(botReceive.user.id)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
     print (str(await botReceive.fetch_channel("855039765711552515")))
     channnel = await botReceive.fetch_channel("855039765711552515");
+    await channel.send("--bla")
     while True:
-        await channnel.send("found channel")
+        await channel.send("found channel")
         time.sleep(10)
         
     print (str(botReceive.get_channel("general")))
