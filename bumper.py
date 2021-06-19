@@ -15,7 +15,9 @@ botReceive = commands.Bot(command_prefix = "--", self_bot=True) # https://discor
 async def on_ready():
     print("Auto Bumper Is Online!") 
     print("Auto Bumper " + str(botReceive.user)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
-    print(botReceive.get_channel('855039765711552515'))
+   
+    print(discord.utils.get(guild.text_channels, name="general"))
+    #print(botReceive.get_channel('855039765711552515'))
 
 @botReceive.command()
 async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html#discord.ext.commands.Context
