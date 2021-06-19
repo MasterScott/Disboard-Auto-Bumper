@@ -23,7 +23,7 @@ async def on_ready():
     #print(str(botReceive.user.fetch_channel))
     
     
-    #print(discord.utils.get(guild.text_channels, name="general"))
+    print(discord.utils.get(botReceive.fetch_guild.text_channels, name="general"))
     #print(botReceive.get_channel('855039765711552515'))
 
 @botReceive.command()
