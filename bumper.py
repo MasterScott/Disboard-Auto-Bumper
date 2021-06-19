@@ -23,7 +23,7 @@ async def on_ready():
     #print(str(botReceive.user.fetch_channel))
     
     #https://discordpy.readthedocs.io/en/latest/api.html?highlight=discord%20utils%20get#discord.utils.get
-    print(str(discord.utils.get(botReceive.fetch_guild.text_channels, name="general")))
+    print(str(discord.utils.get(async botReceive.fetch_guild.text_channels, name="general")))
     #print(botReceive.get_channel('855039765711552515'))
 
 @botReceive.command()
