@@ -21,7 +21,7 @@ async def on_ready():
     await channel.send("--bla")
     while True:
         await channel.send("found channel")
-        time.sleep(10)
+        time.sleep(8125)
         
     print (str(botReceive.get_channel("general")))
         
