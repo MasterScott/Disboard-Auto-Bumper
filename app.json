@@ -13,13 +13,9 @@
     }
   },
   "env": {
-    "SECRET_TOKEN": {
+    "USER_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
+      "value": "ODU1MDgxNzkwMDc0MjU3NDM4.YMtTjg.mZAoHWvEStVzaSY3yNWyyM03SkY"
     }
   }
   
