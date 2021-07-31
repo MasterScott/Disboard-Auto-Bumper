@@ -16,8 +16,10 @@ async def on_ready():
    
     print("Auto Bumper Is Online!") 
     print("Auto Bumper " + str(botReceive.user) + " | " + str(botReceive.user.id)) # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
-    print (str(await botReceive.fetch_channel("855039765711552515")))
-    channel = await botReceive.fetch_channel("855039765711552515");
+  
+    # fetch_channel("855039765711552515")
+    print (str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
+    channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
     await channel.send("--bla")
     while True:
         await channel.send("found channel")
