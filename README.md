@@ -1,3 +1,5 @@
+
+
 Create a new Discord account.   
 Get the UserToken. https://github.com/vaido-world/Disboard-Auto-Bumper/blob/master/UserToken2021.md  
 Join a server with it.     
