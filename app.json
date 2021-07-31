@@ -1,7 +1,7 @@
 {
   "name": "Disboard Bumper",
   "description": "Does !d bump for your Discord Server",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/vaido-world/Disboard-Auto-Bumper",
   "logo": "https://discord.bots.gg/img/logo_transparent_coloured.png",
   "keywords": ["Python", "heroku"],
   "image": "heroku/nodejs",
