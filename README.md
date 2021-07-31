@@ -1,3 +1,12 @@
+Create a new Discord account.   
+Get the UserToken. https://github.com/vaido-world/Disboard-Auto-Bumper/blob/master/UserToken2021.md  
+Join a server with it.     
+Activate Discord Developer's mode for the Discord account.    
+Left click the wanted channel.    
+Copy the Channel ID.  
+
+
+Deploy the Discord Bot based on your Discord UserToken and Channel ID.  
 **app.json:** https://github.com/vaido-world/Disboard-Auto-Bumper/wiki/Deploy-auto
 [![asd](https://camo.githubusercontent.com/bcffcd4a539d4b3c4bde97e0cea7503b9ac8d751ff8e4b5c5ad007a0eb59f518/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e706e67)](https://www.heroku.com/deploy/?template=https://github.com/vaido-world/Disboard-Auto-Bumper)
 
