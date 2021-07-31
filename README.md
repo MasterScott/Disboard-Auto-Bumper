@@ -5,6 +5,7 @@ Activate Discord Developer's mode for the Discord account.
 Left click the wanted channel.    
 Copy the Channel ID.  
 
+Create Heroku account and and login into Heroku.
 
 Deploy the Discord Bot based on your Discord UserToken and Channel ID.  
 **app.json:** https://github.com/vaido-world/Disboard-Auto-Bumper/wiki/Deploy-auto
