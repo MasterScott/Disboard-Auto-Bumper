@@ -1,4 +1,4 @@
-https://www.heroku.com/deploy/?template=https://github.com/vaido-world/Disboard-Auto-Bumper
+**app.json:** https://www.heroku.com/deploy/?template=https://github.com/vaido-world/Disboard-Auto-Bumper
 # Auto Disboard Bumper
 
 # User Token 
