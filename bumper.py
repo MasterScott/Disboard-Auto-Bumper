@@ -24,9 +24,10 @@ async def on_ready():
    # for server in botReceive.servers:
    #     member = server.get_member(botReceive.user.id)
    #     if member:
+   print("This bot is currently joined in these servers: ")
     for guild in botReceive.guilds:
-        print(guild.name)
-        print(guild.id)
+        print(" Server Name: " + guild.name + " Server ID: " + guild.id)
+
     
             #await botReceive.say(f"Server Name: {server.name}")
             #await botReceive.say(f"Server ID:   {server.id}")
