@@ -21,11 +21,13 @@ async def on_ready():
     # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
     print("Auto Bumper with Username: " + str(botReceive.user) + " | User ID: " + str(botReceive.user.id)) 
   
-    for server in botReceive.servers:
-        member = server.get_member(botReceive.user.id)
-        if member:
-            print(server.name)
-            print(server.id)
+   # for server in botReceive.servers:
+   #     member = server.get_member(botReceive.user.id)
+   #     if member:
+    for guild in bot.guilds:
+        print(guild.name)
+        print(guild.id)
+    
             #await botReceive.say(f"Server Name: {server.name}")
             #await botReceive.say(f"Server ID:   {server.id}")
 
