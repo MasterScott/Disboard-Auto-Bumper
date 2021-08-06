@@ -28,7 +28,7 @@ async def on_ready():
     print ("DISCORD_SERVER_CHANNEL_ID: " + str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_NAME"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
       
-    # Get the channel ID by name     
+    # Get the channel ID by name     [unproven] [Code line can be deleted]
     print ("test?: " +str(botReceive.get_channel("general")))
    
     # Send --bla command automatically on the bot initialization.
