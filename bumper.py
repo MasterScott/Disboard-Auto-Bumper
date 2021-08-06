@@ -25,7 +25,7 @@ async def on_ready():
     # Initializing channel where to send !d bump
     # fetch_channel("855039765711552515")
     print ("DISCORD_SERVER_CHANNEL_ID: " + str(os.getenv("DISCORD_SERVER_CHANNEL_ID")))
-    print ("DISCORD_SERVER_CHANNEL_ID: " + str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_NAME"))))
+    print ("DISCORD_SERVER_CHANNEL_NAME: " + str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
       
     # Get the channel ID by name     [unproven] [Code line can be deleted]
