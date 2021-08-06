@@ -33,7 +33,7 @@ async def on_ready():
         time.sleep(8125)
         
     # Get the channel ID by name     
-    print (str(botReceive.get_channel("general")))
+    print ("test?: " +str(botReceive.get_channel("general")))
         
         
     #server = bot.get_server(member.server)
