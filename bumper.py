@@ -23,13 +23,10 @@ async def on_ready():
     print("Auto Bumper with Username: " + str(botReceive.user) + " | User ID: " + str(botReceive.user.id)) 
   
     # Initializing channel where to send !d bump
-    # fetch_channel("855039765711552515")
+    # Example: fetch_channel("855039765711552515")
     print ("DISCORD_SERVER_CHANNEL_ID: " + str(os.getenv("DISCORD_SERVER_CHANNEL_ID")))
     print ("DISCORD_SERVER_CHANNEL_NAME: " + str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
-      
-    # Get the channel ID by name     [unproven] [Code line can be deleted]
-    print ("test?: " +str(botReceive.get_channel("general")))
    
     # Send --bla command automatically on the bot initialization.
     await channel.send("--bla")
