@@ -5,7 +5,7 @@ You just have to register an account on Heroku.
 Add credit card there to extend the limits of free plan.  
 Create a Discord account that will do auto-bumping. 
 Get the User-Token of the Discord account.  
-Join a Discord server.
+Join a Discord server.  
 Get the Channel-ID via enabling the Developer Mode in Discord.  
 Visit GitHub repository README.md and click the Deploy button.  
 
