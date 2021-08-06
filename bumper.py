@@ -24,7 +24,7 @@ async def on_ready():
    # for server in botReceive.servers:
    #     member = server.get_member(botReceive.user.id)
    #     if member:
-    print("Bot_Joined_Discord_Servers: ")
+    print("Bot has joined these servers: ")
     for guild in botReceive.guilds:
         print("  [!] Server Name: " + str(guild.name) + " | Server ID: " + str(guild.id))
 
