@@ -23,8 +23,10 @@ async def on_ready():
     for server in botReceive.servers:
         member = server.get_member(botReceive.user.id)
         if member:
-            await botReceive.say(f"Server Name: {server.name}")
-            await botReceive.say(f"Server ID:   {server.id}")
+            print(server.name)
+            print(server.id)
+            #await botReceive.say(f"Server Name: {server.name}")
+            #await botReceive.say(f"Server ID:   {server.id}")
 
     # Initializing channel where to send !d bump
     # Example: fetch_channel("855039765711552515")
