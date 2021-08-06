@@ -21,7 +21,7 @@ async def on_ready():
   
     # Initializing channel where to send !d bump
     # fetch_channel("855039765711552515")
-    print (str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
+    print ("DISCORD_SERVER_CHANNEL_ID: " + str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
    
     # Send --bla command automatically on the bot initialization.
