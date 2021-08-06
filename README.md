@@ -1,6 +1,7 @@
 
 Now I integrated the Disboard Auto Bumper with Heroku.   
-It's 1 click to deploy an auto-bumper.  
+It's 1 click to deploy an auto-bumper. 
+
 You just have to register an account on Heroku.  
 Add credit card there to extend the limits of free plan.  
 Create a Discord account that will do auto-bumping.  
