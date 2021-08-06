@@ -26,7 +26,7 @@ async def on_ready():
    #     if member:
     print("The bot is available in these servers: ")
     for guild in botReceive.guilds:
-        print(" Server Name: " + str(guild.name) + " Server ID: " + str(guild.id))
+        print("  Server Name: " + str(guild.name) + " | Server ID: " + str(guild.id))
 
     
             #await botReceive.say(f"Server Name: {server.name}")
