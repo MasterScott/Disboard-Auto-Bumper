@@ -49,8 +49,8 @@ async def on_ready():
 async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html#discord.ext.commands.Context
     #while True:
     await ctx.send("!d bump")
-    await ctx.send("Username: " + ctx.author)
-    await ctx.send("Channel ID: " + ctx.channel.id)
+    await ctx.send("Username: " + str(ctx.author))
+    await ctx.send("Channel ID: " + str(ctx.channel.id))
     print("Auto Bumper Channel ID: " + str(ctx.channel.id))
     print("Auto Bumper bla command has been done in #" + str(ctx.channel) + " by " + str(ctx.author))
        #time.sleep(10) # 8125 seconds == 2 hours
