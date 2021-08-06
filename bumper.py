@@ -24,7 +24,7 @@ async def on_ready():
    # for server in botReceive.servers:
    #     member = server.get_member(botReceive.user.id)
    #     if member:
-    for guild in bot.guilds:
+    for guild in botReceive.guilds:
         print(guild.name)
         print(guild.id)
     
