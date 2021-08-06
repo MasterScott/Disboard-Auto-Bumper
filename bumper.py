@@ -19,6 +19,7 @@ async def on_ready():
     # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
     print("Auto Bumper with Username: " + str(botReceive.user) + " | User ID: " + str(botReceive.user.id)) 
   
+    # Initializing channel where to send !d bump
     # fetch_channel("855039765711552515")
     print (str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
