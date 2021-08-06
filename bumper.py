@@ -22,11 +22,16 @@ async def on_ready():
     # fetch_channel("855039765711552515")
     print (str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
+   
+    # Send --bla command automatically on the bot initialization.
     await channel.send("--bla")
+   
+    # Some Loop Testing
     while True:
         await channel.send("found channel")
         time.sleep(8125)
         
+    # Get the channel ID by name     
     print (str(botReceive.get_channel("general")))
         
         
@@ -47,7 +52,7 @@ async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/ap
     await ctx.send("Channel ID: " + ctx.channel.id)
     print("Auto Bumper Channel ID: " + str(ctx.channel.id))
     print("Auto Bumper bla command has been done in #" + str(ctx.channel) + " by " + str(ctx.author))
-    #time.sleep(10) # 8125 seconds == 2 hours
+       #time.sleep(10) # 8125 seconds == 2 hours
 
 
 
