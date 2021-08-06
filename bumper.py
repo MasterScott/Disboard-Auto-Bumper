@@ -23,6 +23,9 @@ async def on_ready():
     # fetch_channel("855039765711552515")
     print ("DISCORD_SERVER_CHANNEL_ID: " + str(await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"))))
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
+      
+    # Get the channel ID by name     
+    print ("test?: " +str(botReceive.get_channel("general")))
    
     # Send --bla command automatically on the bot initialization.
     await channel.send("--bla")
@@ -32,8 +35,8 @@ async def on_ready():
         await channel.send("found channel")
         time.sleep(8125)
         
-    # Get the channel ID by name     
-    print ("test?: " +str(botReceive.get_channel("general")))
+      
+    print ("while loop is not running.")
         
         
     #server = bot.get_server(member.server)
