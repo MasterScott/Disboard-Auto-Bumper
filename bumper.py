@@ -14,7 +14,7 @@ botReceive = commands.Bot(command_prefix = "--", self_bot=True) # https://discor
 @botReceive.event
 async def on_ready():
    
-    print(discord.__version__)
+    print("Discord.py library's Version: " + discord.__version__)
     print("Auto Bumper Is Online!") 
     print("USER_TOKEN: " + os.getenv("USER_TOKEN"))
    
