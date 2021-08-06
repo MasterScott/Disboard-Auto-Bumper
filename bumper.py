@@ -16,6 +16,9 @@ async def on_ready():
    
     print("Auto Bumper Is Online!") 
       
+
+    print("USER_TOKEN: " + os.getenv("USER_TOKEN"))
+   
     # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
     print("Auto Bumper with Username: " + str(botReceive.user) + " | User ID: " + str(botReceive.user.id)) 
   
