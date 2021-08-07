@@ -5,7 +5,7 @@ It's 1 click to deploy an auto-bumper.
 1. You just have to register an account on Heroku.  
 2. Add credit card there to extend the limits of free plan.  
 3. Create a Discord account that will do auto-bumping.  
-   4. [Get the User-Token of the Discord account.](https://github.com/vaido-world/Disboard-Auto-Bumper/blob/master/UserToken2021.md)  
+   4. [Get the User-Token of the Discord account.](https://github.com/vaido-world/Disboard-Auto-Bumper/blob/master/Tutorials/UserToken2021.md)  
    5. Join a Discord server.  
 
 6\. Get the Channel-ID via enabling the Developer Mode in Discord.  
