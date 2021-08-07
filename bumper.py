@@ -33,15 +33,14 @@ async def on_ready():
     channel = await botReceive.fetch_channel(os.getenv("DISCORD_SERVER_CHANNEL_ID"));
    
     # Send --bla command automatically on the bot initialization.
-    await channel.send("--bla")
+    # await channel.send("--bla")
    
     # Some Loop Testing
     while True:
         await channel.send("found channel")
+        await channel.send("!d bump")
         time.sleep(8125)
         
-      
-    print ("while loop is not running.")
         
         
     #server = bot.get_server(member.server)
@@ -55,13 +54,13 @@ async def on_ready():
 
 @botReceive.command()
 async def bla(ctx): # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html#discord.ext.commands.Context
-    #while True:
-    await ctx.send("!d bump")
-    await ctx.send("Username: " + str(ctx.author))
-    await ctx.send("Channel ID: " + str(ctx.channel.id))
-    print("Auto Bumper Channel ID: " + str(ctx.channel.id))
-    print("Auto Bumper bla command has been done in #" + str(ctx.channel) + " by " + str(ctx.author))
-       #time.sleep(10) # 8125 seconds == 2 hours
+    while True:
+      await ctx.send("!d bump")
+      await ctx.send("Username: " + str(ctx.author))
+      await ctx.send("Channel ID: " + str(ctx.channel.id))
+      print("Auto Bumper Channel ID: " + str(ctx.channel.id))
+      print("Auto Bumper bla command has been done in #" + str(ctx.channel) + " by " + str(ctx.author))
+      time.sleep(10) # 8125 seconds == 2 hours
 
 
 
