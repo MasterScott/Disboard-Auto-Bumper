@@ -21,16 +21,10 @@ async def on_ready():
     # https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=run#discord.ext.commands.Bot.user
     print("Auto Bumper with Username: " + str(botReceive.user) + " | User ID: " + str(botReceive.user.id)) 
   
-   # for server in botReceive.servers:
-   #     member = server.get_member(botReceive.user.id)
-   #     if member:
+
     print("Bot has joined these servers: ")
     for guild in botReceive.guilds:
         print("  [!] Server Name: " + str(guild.name) + " | Server ID: " + str(guild.id))
-
-    
-            #await botReceive.say(f"Server Name: {server.name}")
-            #await botReceive.say(f"Server ID:   {server.id}")
 
     # Initializing channel where to send !d bump
     # Example: fetch_channel("855039765711552515")
