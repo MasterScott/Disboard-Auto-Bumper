@@ -1,4 +1,4 @@
-### Resolved: `discord.errors.LoginFailure: Improper token has been passed.`
+## Resolves: `discord.errors.LoginFailure: Improper token has been passed.`
 
 ## A new method of gaining User Token
 I resoved this issue by using another method of gaining the User Token.
