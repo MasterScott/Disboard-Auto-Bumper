@@ -14,7 +14,7 @@
   },
   "env": {
     "USER_TOKEN": {
-      "description": "Tutorial: https://github.com/vaido-world/Disboard-Auto-Bumper/blob/master/Tutorials/UserToken2021.md",
+      "description": "𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: https://github.com/vaido-world/Disboard-Auto-Bumper/blob/master/Tutorials/UserToken2021.md",
       "value": "ODU1MDgxNzkwMDc0MjU3NDM4.YMtTjg.mZAoHWvEStVzaSY3yNWyyM03SkY"
     },
     "DISCORD_SERVER_CHANNEL_ID": {
