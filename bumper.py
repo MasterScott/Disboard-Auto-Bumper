@@ -39,7 +39,7 @@ async def on_ready():
     while True:
         await channel.send("found channel")
         await channel.send("!d bump")
-        time.sleep(8125)
+        time.sleep(8125) # 8125 seconds == 2 hours
         
         
         
