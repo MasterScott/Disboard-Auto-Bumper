@@ -22,7 +22,7 @@ async def on_ready():
     print("Auto Bumper with Username: " + str(botReceive.user) + " | User ID: " + str(botReceive.user.id)) 
   
 
-    print("Bot has joined these servers: ")
+    print("Channels are available from these joined Discord Servers: ")
     for guild in botReceive.guilds:
         print("  [!] Server Name: " + str(guild.name) + " | Server ID: " + str(guild.id))
 
