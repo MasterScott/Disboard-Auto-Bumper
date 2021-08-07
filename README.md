@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/21064622/128599500-eddb689e-3233-4d26-847f-625d035b5701.png)
+![image](https://user-images.githubusercontent.com/21064622/128600085-d46e96a6-6764-4f88-9411-9b0c76b78b6c.png)
 
 Now I integrated the Disboard Auto Bumper with Heroku.   
 It's 1 click to deploy an auto-bumper. 
