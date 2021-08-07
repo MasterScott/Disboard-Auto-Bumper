@@ -9,7 +9,7 @@
     "worker": {
       "quantity": 1,
       "size": "free",
-      "command": "python bumper.py"
+      "command": "python 🌌bumper.py"
     }
   },
   "env": {
