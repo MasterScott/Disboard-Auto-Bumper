@@ -1,5 +1,5 @@
 ## Heroku Disboard-Auto-Bumper
-This auto-bumper allows you to use a newly created Discord account as a Disboard auto-bumper.  
+This auto-bumper allows you to use a newly created Discord account as a Disboard auto-bumper using a User Token.  
 
 
 ![image](https://user-images.githubusercontent.com/21064622/128601085-e0c4c836-b1fe-4030-9fe5-ceeece555596.png)
