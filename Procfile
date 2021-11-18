@@ -1,1 +1,1 @@
-web: python3 bumper.py
+web: bash start.sh
