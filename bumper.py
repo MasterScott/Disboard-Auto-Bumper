@@ -5,7 +5,7 @@ from wserver import keep_alive
 
 
 # Uncomment the line below if you are wanting to host this on heroku and are using an environment variable to store the token.
-#token = os.getenv("TOKEN")
+token = os.getenv("TOKEN")
 # If you are using this on a server or your home pc uncomment the line below and put the discord token for the account you want it to auto bump on.
 #token = "TOKEN"
 
