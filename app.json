@@ -1,0 +1,10 @@
+{
+	"name": "DC Auto Bumper",
+	"description": "DC Auto Bumper",
+	"repository": "https://github.com/tiararosebiezetta/Disboard-Auto-Bumper",
+	"env": {
+		"token": {
+			"description": "put token here"
+		}
+	}
+}
