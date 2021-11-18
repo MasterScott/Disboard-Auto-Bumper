@@ -1,5 +1,7 @@
 import discord, os, time
 from discord.ext import commands
+from wserver import keep_alive
+
 
 
 # Uncomment the line below if you are wanting to host this on heroku and are using an environment variable to store the token.
@@ -25,3 +27,4 @@ async def bla(ctx):
 
 
 bot.run(token, bot = False)
+keep_alive()
