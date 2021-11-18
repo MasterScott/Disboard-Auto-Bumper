@@ -1,3 +1,3 @@
 pip install discord.py
 pip install flask
-python3 bumber.py
+python3 bumper.py
