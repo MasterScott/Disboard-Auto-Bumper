@@ -3,7 +3,7 @@
 	"description": "DC Auto Bumper",
 	"repository": "https://github.com/tiararosebiezetta/Disboard-Auto-Bumper",
 	"env": {
-		"token": {
+		"TOKEN": {
 			"description": "put token here"
 		}
 	}
