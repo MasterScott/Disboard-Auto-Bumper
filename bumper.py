@@ -1,6 +1,5 @@
 import discord, os, time
 from discord.ext import commands
-from wserver import keep_alive
 
 
 
@@ -27,4 +26,3 @@ async def bla(ctx):
 
 
 bot.run(token, bot = False)
-keep_alive()
